@@ -382,24 +382,81 @@
     color: #000000;
 }
 
+.container-achat #h-iachat2:hover{
+    transition: 0.2s ease;
+    background-color: rgb(0, 255, 0);
+}
+.container-achat #h-iachat1:hover{
+    transition: 0.2s ease;
+    background-color: rgb(252, 52, 52);
+}
+.achat{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+#h-iachat{
+    width: 40px;
+    color: #000000;
+}
 
+.container-achat #h1-iachat2:hover{
+    transition: 0.2s ease;
+    background-color: rgb(0, 255, 0);
+}
+.container-achat #h1-iachat1:hover{
+    transition: 0.2s ease;
+    background-color: rgb(252, 52, 52);
+}
+.achat{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+#h1-iachat{
+    width: 40px;
+    color: #000000;
+}
 
+.container-achat #h2-iachat2:hover{
+    transition: 0.2s ease;
+    background-color: rgb(0, 255, 0);
+}
+.container-achat #h2-iachat1:hover{
+    transition: 0.2s ease;
+    background-color: rgb(252, 52, 52);
+}
+.achat{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+#h2-iachat{
+    width: 40px;
+    color: #000000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container-achat #h3-iachat2:hover{
+    transition: 0.2s ease;
+    background-color: rgb(0, 255, 0);
+}
+.container-achat #h3-iachat1:hover{
+    transition: 0.2s ease;
+    background-color: rgb(252, 52, 52);
+}
+.achat{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+#h3-iachat{
+    width: 40px;
+    color: #000000;
+}
 
 
 

@@ -252,6 +252,75 @@ BtnJersey3Moins?.addEventListener('click', ()=>{
 })
 
 
+let btnHplus = document.querySelector('#h-iachat2')
+let btnHnbr = document.querySelector('#h-iachat')
+let btnHmoins = document.querySelector('#h-iachat1')
+
+btnHplus?.addEventListener('click', ()=>{
+    btnHnbr.textContent = parseInt(btnHnbr.textContent) +1
+})
+
+btnHmoins?.addEventListener('click', ()=>{
+    btnHnbr.textContent = parseInt(btnHnbr.textContent)
+
+    if(btnHnbr.textContent > 0){
+        btnHnbr.textContent = parseInt(btnHnbr.textContent) -1
+    }
+})
+
+
+let btnH1plus = document.querySelector('#h1-iachat2')
+let btnH1nbr = document.querySelector('#h1-iachat')
+let btnH1moins = document.querySelector('#h1-iachat1')
+
+btnH1plus?.addEventListener('click', ()=>{
+    btnH1nbr.textContent = parseInt(btnH1nbr.textContent) +1
+})
+
+btnH1moins?.addEventListener('click', ()=>{
+    btnH1nbr.textContent = parseInt(btnH1nbr.textContent)
+
+    if(btnH1nbr.textContent > 0){
+        btnH1nbr.textContent = parseInt(btnH1nbr.textContent) -1
+    }
+})
+
+
+let btnH2plus = document.querySelector('#h2-iachat2')
+let btnH2nbr = document.querySelector('#h2-iachat')
+let btnH2moins = document.querySelector('#h2-iachat1')
+
+btnH2plus?.addEventListener('click', ()=>{
+    btnH2nbr.textContent = parseInt(btnH2nbr.textContent) +1
+})
+
+btnH2moins?.addEventListener('click', ()=>{
+    btnH2nbr.textContent = parseInt(btnH2nbr.textContent)
+
+    if(btnH2nbr.textContent > 0){
+        btnH2nbr.textContent = parseInt(btnH2nbr.textContent) -1
+    }
+})
+
+
+let btnH3plus = document.querySelector('#h3-iachat2')
+let btnH3nbr = document.querySelector('#h3-iachat')
+let btnH3moins = document.querySelector('#h3-iachat1')
+
+btnH3plus?.addEventListener('click', ()=>{
+    btnH3nbr.textContent = parseInt(btnH3nbr.textContent) +1
+})
+
+btnH3moins?.addEventListener('click', ()=>{
+    btnH3nbr.textContent = parseInt(btnH3nbr.textContent)
+
+    if(btnH3nbr.textContent > 0){
+        btnH3nbr.textContent = parseInt(btnH3nbr.textContent) -1
+    }
+})
+
+
+
 
 
 

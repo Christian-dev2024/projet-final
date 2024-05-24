@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "Afacad", sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -16,6 +17,7 @@
 
 body{
     background: var(--bg-color);
+    max-width: auto;
 }
 
 header {
@@ -113,11 +115,19 @@ section{
     overflow: hidden;
 }
 
+
 .welcome{
     display: flex;
     flex-direction: row;
     height: 900px;
     background-color: #fff;
+}
+
+@media (min-width: 1500px) {
+    .welcom{
+        height: 100vh;
+        width: 100%;
+    }
 }
 
 .contenu-welcom{
@@ -654,3 +664,4 @@ footer p a{
     color: #111111;
     font-weight: 600;
 }
+
